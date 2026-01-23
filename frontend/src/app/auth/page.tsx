@@ -6,10 +6,10 @@ const page = () => {
       <div className='bg-amber-50 h-160 w-115 px-8 m-4
                       flex flex-col gap-4
                       border-2 rounded-2xl border-white'>
-        <div className='text-center pt-15 flex flex-col gap-5 w-full'>
-          <div>
-            <i className="fa fa-cutlery w-18 h-18 
-          text-[white] text-4xl border-2 rounded-full border-[#FF6B00] bg-[#FF6B00] p-3" aria-hidden="true"></i>
+        <div className='text-center pt-15 flex flex-col gap-5 w-full items-center'>
+          <div className=' flex justify-center items-center'>
+            <i className="fa fa-cutlery  
+          text-[white] text-4xl border-2 w-18 h-18 rounded-full border-[#FF6B00] bg-[#FF6B00] p-3" aria-hidden="true"></i>
           </div>
           <div className='flex flex-col gap-1'>
             <h1 className='font-medium text-4xl max-[400px]:text-[32px]'>Scan to serve</h1>

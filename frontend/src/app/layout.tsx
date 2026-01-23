@@ -31,7 +31,7 @@ export default function RootLayout({
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased h-[100vh] w-[100vw]`  }>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased h-[100vh] w-[100vw] box-border`  }>
         {children}
       </body>
     </html>
